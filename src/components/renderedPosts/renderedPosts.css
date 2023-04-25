@@ -1,0 +1,77 @@
+
+#cards_landscape_wrap-2{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+background-color: #f2f2f2;
+padding: 50px;
+}
+
+#cards_landscape_wrap-2 .card-flyer{
+width: 300px;
+height: 350px;
+border-radius: 10px;
+overflow: hidden;
+margin: 20px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+transition: all 0.3s ease-in-out;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover{
+box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+transform: translateY(-5px);
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box{
+width: 100%;
+height: 200px;
+overflow: hidden;
+position: relative;
+}
+
+#cards_landscape_wrap-2 .card-flyer .image-box img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: all 0.3s ease-in-out;
+}
+
+#cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+transform: scale(1.2);
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box{
+padding: 20px;
+text-align: center;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box h6{
+font-size: 1.4rem;
+font-weight: bold;
+margin-bottom: 10px;
+text-transform: uppercase;
+color: #555;
+}
+
+#cards_landscape_wrap-2 .card-flyer .text-box p{
+font-size: 1.2rem;
+margin-bottom: 20px;
+color: #777;
+}
+
+#cards_landscape_wrap-2 .card-flyer a{
+display: inline-block;
+padding: 8px 15px;
+border-radius: 5px;
+font-size: 1.2rem;
+text-transform: uppercase;
+background-color: #00bfa5;
+color: #fff;
+transition: all 0.3s ease-in-out;
+}
+
+#cards_landscape_wrap-2 .card-flyer a:hover{
+background-color: #00897b;
+cursor: pointer;
+}
